@@ -1,0 +1,10 @@
+#+STARTUP: content
+#+STARTUP: fold
+* cl-regex
+** Usage
+** Installation
+** Test
+#+begin_src console
+  $ ros install rove
+  $ ros run --eval '(asdf:test-system :cl-regex)' --quit
+#+end_src

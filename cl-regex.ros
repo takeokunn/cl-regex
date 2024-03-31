@@ -1,0 +1,16 @@
+#!/bin/sh
+#|-*- mode:lisp -*-|#
+#|
+exec ros -Q -- $0 "$@"
+|#
+(progn
+  (ros:ensure-asdf)
+  #+quicklisp(ql:quickload '(:cl-regex) :silent t))
+
+(defpackage :ros.script.cl-regex.3920863670
+  (:use :cl))
+(in-package :ros.script.cl-regex.3920863670)
+
+(defun main (&rest argv)
+  (declare (ignorable argv))
+  (cl-regex:main))
