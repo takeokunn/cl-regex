@@ -44,7 +44,7 @@ APIリファレンスと技術仕様
 ### 💡 [Explanation](./explanation/) - 理解
 設計思想と理論的背景
 - [Architecture](./explanation/architecture.md) - システムアーキテクチャ
-- [Engine Design](./explanation/world-class-engine.md) - エンジン設計思想
+- [Engine Design](./explanation/engine-design.md) - エンジン設計思想
 - [Formal Verification](./explanation/formal-verification.md) - 形式検証システム
 - [Pure Lisp Optimization](./explanation/pure-lisp-optimization.md) - 純粋Lispによる最適化
 - [Testing Strategy](./explanation/testing-strategy.md) - PBT/TDD戦略

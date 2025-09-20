@@ -366,7 +366,7 @@ graph TD
 
 ### NFAエンジン - Thompson構築の最適化実装
 
-CL-RegexのNFAエンジンは、従来のThompson構築法に効率的改良を加え、世界最高の性能を実現します：
+CL-RegexのNFAエンジンは、従来のThompson構築法に効率的改良を加え、高い性能を実現します：
 
 ```mermaid
 stateDiagram-v2
